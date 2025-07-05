@@ -33,11 +33,11 @@ A highly modular, comprehensive, and extensible Anti-Cheat plugin for Spigot/Pap
 
    ```bash
    git clone https://github.com/icelaterdc/Minecraft-Anti-Cheat.git
-   cd AdvancedAntiCheatPlus
+   cd Minecraft-Anti-Cheat
    mvn clean package
    ```
 
-   This produces `MinecraftAntiCheat-1.1.0.jar` in the `target/` directory.
+   This produces `Minecraft-Anti-Cheat.jar` in the `target/` directory.
 
 2. **Deploy to Server**
 
@@ -46,7 +46,7 @@ A highly modular, comprehensive, and extensible Anti-Cheat plugin for Spigot/Pap
 
 3. **Configuration**
 
-   * On first run, a folder `plugins/MinecraftAntiCheat/` is created containing `config.yml`.
+   * On first run, a folder `plugins/Minecraft-Anti-Cheat/` is created containing `config.yml`.
    * Edit `config.yml` to enable/disable checks and adjust thresholds.
    * Use `/anticheat reload` to apply changes without a full restart.
 
