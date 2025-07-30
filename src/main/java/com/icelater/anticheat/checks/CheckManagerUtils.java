@@ -1,6 +1,6 @@
-package com.yourname.anticheat.checks;
+package com.icelater.anticheat.checks;
 
-import com.yourname.anticheat.AdvancedAntiCheat;
+import com.icelater.anticheat.AdvancedAntiCheat;
 import org.bukkit.BanList;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
