@@ -1,6 +1,6 @@
-package com.yourname.anticheat.checks;
+package com.icelater.anticheat.checks;
 
-import com.yourname.anticheat.AdvancedAntiCheat;
+import com.icelater.anticheat.AdvancedAntiCheat;
 import org.bukkit.Bukkit;
 
 import java.util.HashMap;
@@ -22,7 +22,7 @@ public class CheckManager {
     public void registerAll() {
         plugin.getConfig().getConfigurationSection("checks").getKeys(false).forEach(name -> {
             try {
-                Class<?> clazz = Class.forName("com.yourname.anticheat.checks." + name);
+                Class<?> clazz = Class.forName("com.icelater.anticheat.checks." + name);
                 Check check = (Check) clazz.getDeclaredConstructor().newInstance();
                 check.configure(new CheckConfig(plugin.getConfig().getConfigurationSection("checks." + name).getValues(false)));
                 if (check.isEnabled()) register(check);
