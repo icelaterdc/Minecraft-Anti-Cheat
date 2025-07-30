@@ -1,4 +1,4 @@
-package com.yourname.anticheat.checks;
+package com.icelater.anticheat.checks;
 
 import java.util.Map;
 
