@@ -1,6 +1,6 @@
-package com.yourname.anticheat.commands;
+package com.icelater.anticheat.commands;
 
-import com.yourname.anticheat.AdvancedAntiCheat;
+import com.icelater.anticheat.AdvancedAntiCheat;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
