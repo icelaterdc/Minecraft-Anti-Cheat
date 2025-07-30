@@ -1,7 +1,7 @@
-package com.yourname.anticheat;
+package com.icelater.anticheat;
 
-import com.yourname.anticheat.commands.ACCommand;
-import com.yourname.anticheat.checks.CheckManager;
+import com.icelater.anticheat.commands.ACCommand;
+import com.icelater.anticheat.checks.CheckManager;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
